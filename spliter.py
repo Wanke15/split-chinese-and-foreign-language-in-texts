@@ -1,6 +1,6 @@
 
 import jieba.posseg as pseg
-pseg.lcut('你好大白兔')
+pseg.initialize()
 
 
 def multilingual_sent_split(texts):
